@@ -14,7 +14,7 @@ bool Game::setup()
 
   result = init("Nature of Code", 0, 0, WIDTH, HEIGHT, false);
 
-  _walker = new Walker(WIDTH/2,HEIGHT/2);
+  _walker = new Walker();
 
 
   return result;
